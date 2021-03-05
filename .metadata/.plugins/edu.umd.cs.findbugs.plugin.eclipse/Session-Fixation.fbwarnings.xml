@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="1" timestamp="1534328316443" analysisTimestamp="1534328314991" release="">
+  <Project projectName="Session-Fixation">
+    <Jar>/home/student/Secure-Software-Development-Module/Session-Fixation/target/classes</Jar>
+    <Jar>/home/student/Secure-Software-Development-Module/Session-Fixation/target/test-classes</Jar>
+    <AuxClasspathEntry>/home/student/Secure-Software-Development-Module/Session-Fixation/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/Secure-Software-Development-Module/Session-Fixation/target/test-classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/home/student/Secure-Software-Development-Module/Session-Fixation/src/main/java</SrcDir>
+    <SrcDir>/home/student/Secure-Software-Development-Module/Session-Fixation/src/main/resources</SrcDir>
+    <SrcDir>/home/student/Secure-Software-Development-Module/Session-Fixation/src/test/java</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="XSS_REQUEST_PARAMETER_TO_SERVLET_WRITER" priority="2" rank="5" abbrev="XSS" category="SECURITY" first="1">
+    <Class classname="uk.ac.napier.soc.ssd.sessionmanagement.LoginServlet">
+      <SourceLine classname="uk.ac.napier.soc.ssd.sessionmanagement.LoginServlet" sourcefile="LoginServlet.java" sourcepath="uk/ac/napier/soc/ssd/sessionmanagement/LoginServlet.java"/>
+    </Class>
+    <Method classname="uk.ac.napier.soc.ssd.sessionmanagement.LoginServlet" name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" isStatic="false">
+      <SourceLine classname="uk.ac.napier.soc.ssd.sessionmanagement.LoginServlet" start="22" end="47" startBytecode="0" endBytecode="554" sourcefile="LoginServlet.java" sourcepath="uk/ac/napier/soc/ssd/sessionmanagement/LoginServlet.java"/>
+    </Method>
+    <String value="username" role="STRING_PARAMETER_NAME"/>
+    <SourceLine classname="uk.ac.napier.soc.ssd.sessionmanagement.LoginServlet" start="22" end="22" startBytecode="3" endBytecode="3" sourcefile="LoginServlet.java" sourcepath="uk/ac/napier/soc/ssd/sessionmanagement/LoginServlet.java" role="SOURCE_LINE_GENERATED_AT"/>
+    <SourceLine classname="uk.ac.napier.soc.ssd.sessionmanagement.LoginServlet" start="41" end="41" startBytecode="177" endBytecode="177" sourcefile="LoginServlet.java" sourcepath="uk/ac/napier/soc/ssd/sessionmanagement/LoginServlet.java"/>
+    <SourceLine classname="uk.ac.napier.soc.ssd.sessionmanagement.LoginServlet" start="41" end="41" startBytecode="177" endBytecode="177" sourcefile="LoginServlet.java" sourcepath="uk/ac/napier/soc/ssd/sessionmanagement/LoginServlet.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 15 Aug 2018 03:18:30 -0700" total_classes="1" referenced_classes="33" total_bugs="1" total_size="28" num_packages="1" java_version="1.8.0_171" vm_version="25.171-b11" cpu_seconds="1.32" clock_seconds="1.46" peak_mbytes="870.56" alloc_mbytes="1048.00" gc_seconds="0.00" priority_2="1">
+    <PackageStats package="uk.ac.napier.soc.ssd.sessionmanagement" total_bugs="1" total_types="1" total_size="28" priority_2="1">
+      <ClassStats class="uk.ac.napier.soc.ssd.sessionmanagement.LoginServlet" sourceFile="LoginServlet.java" interface="false" size="28" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="356" invocations="410" avgMicrosecondsPerInvocation="869" maxMicrosecondsPerInvocation="16605" standardDeviationMircosecondsPerInvocation="2438"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="338" invocations="2" avgMicrosecondsPerInvocation="169178" maxMicrosecondsPerInvocation="253487" standardDeviationMircosecondsPerInvocation="84309"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="83" invocations="94" avgMicrosecondsPerInvocation="884" maxMicrosecondsPerInvocation="12684" standardDeviationMircosecondsPerInvocation="2176"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="78" invocations="412" avgMicrosecondsPerInvocation="191" maxMicrosecondsPerInvocation="12217" standardDeviationMircosecondsPerInvocation="999"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="59" invocations="33" avgMicrosecondsPerInvocation="1791" maxMicrosecondsPerInvocation="13890" standardDeviationMircosecondsPerInvocation="3516"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="52" invocations="376" avgMicrosecondsPerInvocation="139" maxMicrosecondsPerInvocation="8800" standardDeviationMircosecondsPerInvocation="779"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="48" invocations="33" avgMicrosecondsPerInvocation="1459" maxMicrosecondsPerInvocation="11895" standardDeviationMircosecondsPerInvocation="2843"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="43" invocations="61" avgMicrosecondsPerInvocation="718" maxMicrosecondsPerInvocation="12189" standardDeviationMircosecondsPerInvocation="2042"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="36" invocations="33" avgMicrosecondsPerInvocation="1105" maxMicrosecondsPerInvocation="8966" standardDeviationMircosecondsPerInvocation="2283"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1534328316443" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

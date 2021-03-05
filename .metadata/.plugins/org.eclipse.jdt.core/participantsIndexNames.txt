@@ -1,0 +1,23 @@
+INDEX VERSION 1.131
+/home/student/Secure-Software-Development-Module/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2209432621.index
+/CSRF/src/main/java
+/home/student/Secure-Software-Development-Module/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/808403204.index
+/Session-Fixation/src/main/java
+/home/student/Secure-Software-Development-Module/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/792552789.index
+/Session-Fixation/src/main/java
+/home/student/Secure-Software-Development-Module/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2345750959.index
+/Ch07_XSSFilter/src/main/java
+/home/student/Secure-Software-Development-Module/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/430792726.index
+/XSS-OutputEscaping/src/main/resources
+/home/student/Secure-Software-Development-Module/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1767286984.index
+/XSS-Filter/src/main/java
+/home/student/Secure-Software-Development-Module/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1521855137.index
+/XSS-OutputEscaping/src/main/resources
+/home/student/Secure-Software-Development-Module/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1921013576.index
+/XSS-OutputEscaping/src/main/resources
+/home/student/Secure-Software-Development-Module/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2313799046.index
+/xssoutputescaping/src/main/resources
+/home/student/Secure-Software-Development-Module/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/700011533.index
+/SQL-Injection/src/main/java
+/home/student/Secure-Software-Development-Module/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1194903877.index
+/XSS-CSP/src/main/java

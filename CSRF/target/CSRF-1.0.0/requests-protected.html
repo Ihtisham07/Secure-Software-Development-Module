@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSRF</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css" />
+</head>
+<body>
+	<h1>CSRF: Protected Requests</h1>
+    <p>The following links show different ways to trigger a GET or POST request with CSRF protection in the backend.</p>
+	
+	<h2>Protected GET Requests</h2>
+    <ul>
+        <li><a href="ProtectedChangePasswordServlet?newPassword=MyPassword1&confirmPassword=MyPassword1">Change Password Link</a></li>
+        <li><a href="image-protected.html">Image</a></li>
+    </ul>
+
+	<h2>Protected POST Requests</h2>
+    <ul>
+        <li><a href="xmlhttprequest-protected.html">XMLHttpRequest</a></li>
+        <li><a href="form-protected.jsp">Form</a></li>
+    </ul>
+
+    <p><a href="index.jsp">Back</a></p>
+</body>
+</html>

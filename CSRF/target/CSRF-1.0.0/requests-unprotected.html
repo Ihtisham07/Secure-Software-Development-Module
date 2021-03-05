@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSRF</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css" />
+</head>
+<body>
+	<h1>CSRF: Unprotected Requests</h1>
+	<p>The following links show different ways to trigger a GET or POST request without any CSRF protection in the backend.</p>
+
+	<h2>Unprotected GET Requests</h2>
+    <ul>
+        <li><a href="UnprotectedChangePasswordServlet?newPassword=MyPassword1&confirmPassword=MyPassword1">Change Password Link</a></li>
+        <li><a href="image-unprotected.html">Image</a></li>
+    </ul>
+	
+	<h2>Unprotected POST Requests</h2>
+    <ul>
+        <li><a href="xmlhttprequest-unprotected.html">XMLHttpRequest</a></li>
+        <li><a href="form-unprotected.jsp">Form</a></li>
+    </ul>
+
+    <p><a href="index.jsp">Back</a></p>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSRF</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css" />
+</head>
+<body>
+    <h1>CSRF: Protected Hidden Image</h1>
+
+    <p>Right-click on the page and select "View Page Source" to see the image tag</p>
+    <img src="ProtectedChangePasswordServlet?newPassword=HiddenImage&confirmPassword=HiddenImage" width="0" height="0" />
+
+    <p><a href="requests-protected.html">Back</a></p>
+</body>
+</html>

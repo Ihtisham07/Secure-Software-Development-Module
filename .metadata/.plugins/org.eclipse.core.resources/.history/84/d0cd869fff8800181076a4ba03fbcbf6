@@ -1,0 +1,51 @@
+package uk.ac.napier.soc.ssd.sql.servlets;
+
+import static uk.ac.napier.soc.ssd.sql.servlets.CustomerTable.extractCustomers;
+import static uk.ac.napier.soc.ssd.sql.servlets.CustomerTable.writeCustomers;
+
+import java.sql.CallableStatement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+@WebServlet(name = "StoredProcedureServlet", urlPatterns = {"/StoredProcedureServlet"})
+public class StoredProcedureServlet extends HttpServlet {
+    private static final Logger LOGGER = LoggerFactory.getLogger(StoredProcedureServlet.class);
+
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException {
+        String name = request.getParameter("name");
+        LOGGER.info("Received {} as POST parameter", name);
+
+        String query = "";
+        ResultSet rs = null;
+
+        try (Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/SQLI_DB", "root", "root");) {
+        	CallableStatement cs = con.prepareCall("{call sp_getAccountBalance(?)}");
+         	cs.setString(1, name);
+         	rs = cs.executeQuery();
+            writeCustomers(response, name, extractCustomers(rs));
+        } catch (SQLException ex) {
+            LOGGER.error(ex.getMessage(), ex);
+        } finally {
+            try {
+                if (rs != null) {
+                    rs.close();
+                }
+            } catch (SQLException ex) {
+                LOGGER.error(ex.getMessage(), ex);
+            }
+        }
+    }
+}

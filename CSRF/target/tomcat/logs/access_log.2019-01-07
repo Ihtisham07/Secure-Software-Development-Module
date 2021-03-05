@@ -1,0 +1,5 @@
+127.0.0.1 - - [07/Jan/2019:03:12:29 -0800] "GET /CSRF HTTP/1.1" 302 - http-bio-8080-exec-1 0
+127.0.0.1 - - [07/Jan/2019:03:12:30 -0800] "GET /CSRF/ HTTP/1.1" 200 602 http-bio-8080-exec-2 536
+127.0.0.1 - - [07/Jan/2019:03:12:30 -0800] "GET /CSRF/resources/css/styles.css HTTP/1.1" 200 94 http-bio-8080-exec-3 10
+127.0.0.1 - - [07/Jan/2019:03:12:33 -0800] "GET /CSRF/requests-unprotected.html HTTP/1.1" 200 847 http-bio-8080-exec-4 4
+127.0.0.1 - - [07/Jan/2019:03:12:35 -0800] "GET /CSRF/UnprotectedChangePasswordServlet?newPassword=MyPassword1&confirmPassword=MyPassword1 HTTP/1.1" 200 281 http-bio-8080-exec-5 662

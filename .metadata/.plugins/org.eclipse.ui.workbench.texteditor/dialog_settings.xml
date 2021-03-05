@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="htt" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="httpo"/>
+			<item value="getblo"/>
+			<item value="@Autowired&#x0A;&#x09;private ContextAwarePolicyEnforcement policy;"/>
+			<item value="/new"/>
+			<item value="root"/>
+			<item value="sess"/>
+			<item value="sessio"/>
+			<item value="xss-attack"/>
+		</list>
+		<list key="replacehistory">
+			<item value="XSS-OutputEscaping"/>
+			<item value="Book"/>
+			<item value="book"/>
+			<item value="bookTitle"/>
+			<item value="quantity"/>
+			<item value="Author"/>
+			<item value="author"/>
+			<item value="GBP"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="338" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="434" key="DIALOG_HEIGHT"/>
+		<item value="1332" key="DIALOG_X_ORIGIN"/>
+		<item value="397" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

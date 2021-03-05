@@ -1,0 +1,3 @@
+uk/ac/napier/soc/ssd/csrf/servlets/ProtectedChangePasswordServlet.class
+uk/ac/napier/soc/ssd/csrf/servlets/UnprotectedChangePasswordServlet.class
+uk/ac/napier/soc/ssd/csrf/token/CSRFTokenHandler.class

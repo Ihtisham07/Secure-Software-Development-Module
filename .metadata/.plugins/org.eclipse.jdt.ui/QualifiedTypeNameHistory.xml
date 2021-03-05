@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+<fullyQualifiedTypeName name="uk.ac.napier.soc.ssd.security.SecurityUtils"/>
+<fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.EnableWebSecurity"/>
+<fullyQualifiedTypeName name="org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity"/>
+<fullyQualifiedTypeName name="org.springframework.security.access.prepost.PreAuthorize"/>
+<fullyQualifiedTypeName name="org.springframework.security.access.annotation.Secured"/>
+<fullyQualifiedTypeName name="uk.ac.napier.soc.abac.security.policy.PolicyEnforcement"/>
+<fullyQualifiedTypeName name="uk.ac.napier.soc.ssd.config.ApplicationProperties"/>
+<fullyQualifiedTypeName name="uk.ac.napier.soc.ssd.config.DefaultProfileUtil"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+<fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.domain.EntityScan"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+</qualifiedTypeNameHistroy>

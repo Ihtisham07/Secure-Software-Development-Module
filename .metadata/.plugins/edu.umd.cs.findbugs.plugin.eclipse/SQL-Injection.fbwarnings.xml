@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="1" timestamp="1534328255133" analysisTimestamp="1534328242411" release="">
+  <Project projectName="SQL-Injection">
+    <Jar>/home/student/Secure-Software-Development-Module/SQL-Injection/target/classes</Jar>
+    <Jar>/home/student/Secure-Software-Development-Module/SQL-Injection/target/test-classes</Jar>
+    <AuxClasspathEntry>/home/student/Secure-Software-Development-Module/SQL-Injection/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/Secure-Software-Development-Module/SQL-Injection/target/test-classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/com/h2database/h2/1.4.197/h2-1.4.197.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/org/owasp/esapi/esapi/2.1.0.1/esapi-2.1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.3/commons-beanutils-core-1.8.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/xom/xom/1.2.5/xom-1.2.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/xalan/xalan/2.7.0/xalan-2.7.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/org/beanshell/bsh-core/2.0b4/bsh-core-2.0b4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/org/apache/xmlgraphics/batik-css/1.8/batik-css-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/org/apache/xmlgraphics/batik-ext/1.8/batik-ext-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/org/apache/xmlgraphics/batik-util/1.8/batik-util-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/org/hibernate/hibernate-core/5.2.17.Final/hibernate-core-5.2.17.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/org/javassist/javassist/3.22.0-GA/javassist-3.22.0-GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/org/jboss/jandex/2.0.3.Final/jandex-2.0.3.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/com/fasterxml/classmate/1.3.0/classmate-1.3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/student/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/home/student/Secure-Software-Development-Module/SQL-Injection/src/main/java</SrcDir>
+    <SrcDir>/home/student/Secure-Software-Development-Module/SQL-Injection/src/main/resources</SrcDir>
+    <SrcDir>/home/student/Secure-Software-Development-Module/SQL-Injection/src/test/java</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DMI_CONSTANT_DB_PASSWORD" priority="2" rank="7" abbrev="Dm" category="SECURITY" first="1">
+    <Class classname="uk.ac.napier.soc.ssd.sql.servlets.PreparedStatementServlet">
+      <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.PreparedStatementServlet" sourcefile="PreparedStatementServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/PreparedStatementServlet.java"/>
+    </Class>
+    <Method classname="uk.ac.napier.soc.ssd.sql.servlets.PreparedStatementServlet" name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" isStatic="false">
+      <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.PreparedStatementServlet" start="30" end="52" startBytecode="0" endBytecode="125" sourcefile="PreparedStatementServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/PreparedStatementServlet.java"/>
+    </Method>
+    <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.PreparedStatementServlet" start="36" end="36" startBytecode="39" endBytecode="39" sourcefile="PreparedStatementServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/PreparedStatementServlet.java"/>
+    <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.PreparedStatementServlet" start="36" end="36" startBytecode="39" endBytecode="39" sourcefile="PreparedStatementServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/PreparedStatementServlet.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_CONSTANT_DB_PASSWORD" priority="2" rank="7" abbrev="Dm" category="SECURITY" first="1">
+    <Class classname="uk.ac.napier.soc.ssd.sql.servlets.StatementEscapingServlet">
+      <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StatementEscapingServlet" sourcefile="StatementEscapingServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StatementEscapingServlet.java"/>
+    </Class>
+    <Method classname="uk.ac.napier.soc.ssd.sql.servlets.StatementEscapingServlet" name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" isStatic="false">
+      <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StatementEscapingServlet" start="32" end="60" startBytecode="0" endBytecode="143" sourcefile="StatementEscapingServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StatementEscapingServlet.java"/>
+    </Method>
+    <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StatementEscapingServlet" start="44" end="44" startBytecode="87" endBytecode="87" sourcefile="StatementEscapingServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StatementEscapingServlet.java"/>
+    <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StatementEscapingServlet" start="44" end="44" startBytecode="87" endBytecode="87" sourcefile="StatementEscapingServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StatementEscapingServlet.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="uk.ac.napier.soc.ssd.sql.servlets.StatementEscapingServlet">
+      <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StatementEscapingServlet" sourcefile="StatementEscapingServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StatementEscapingServlet.java"/>
+    </Class>
+    <Method classname="uk.ac.napier.soc.ssd.sql.servlets.StatementEscapingServlet" name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" isStatic="false">
+      <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StatementEscapingServlet" start="32" end="60" startBytecode="0" endBytecode="143" sourcefile="StatementEscapingServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StatementEscapingServlet.java"/>
+    </Method>
+    <String value="non-constant SQL string involving HTTP taint"/>
+    <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StatementEscapingServlet" start="46" end="46" startBytecode="105" endBytecode="105" sourcefile="StatementEscapingServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StatementEscapingServlet.java"/>
+    <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StatementEscapingServlet" start="46" end="46" startBytecode="105" endBytecode="105" sourcefile="StatementEscapingServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StatementEscapingServlet.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_CONSTANT_DB_PASSWORD" priority="2" rank="7" abbrev="Dm" category="SECURITY" first="1">
+    <Class classname="uk.ac.napier.soc.ssd.sql.servlets.StatementServlet">
+      <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StatementServlet" sourcefile="StatementServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StatementServlet.java"/>
+    </Class>
+    <Method classname="uk.ac.napier.soc.ssd.sql.servlets.StatementServlet" name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" isStatic="false">
+      <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StatementServlet" start="30" end="54" startBytecode="0" endBytecode="137" sourcefile="StatementServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StatementServlet.java"/>
+    </Method>
+    <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StatementServlet" start="39" end="39" startBytecode="70" endBytecode="70" sourcefile="StatementServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StatementServlet.java"/>
+    <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StatementServlet" start="39" end="39" startBytecode="70" endBytecode="70" sourcefile="StatementServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StatementServlet.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="uk.ac.napier.soc.ssd.sql.servlets.StatementServlet">
+      <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StatementServlet" sourcefile="StatementServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StatementServlet.java"/>
+    </Class>
+    <Method classname="uk.ac.napier.soc.ssd.sql.servlets.StatementServlet" name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" isStatic="false">
+      <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StatementServlet" start="30" end="54" startBytecode="0" endBytecode="137" sourcefile="StatementServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StatementServlet.java"/>
+    </Method>
+    <String value="non-constant SQL string involving HTTP taint"/>
+    <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StatementServlet" start="40" end="40" startBytecode="88" endBytecode="88" sourcefile="StatementServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StatementServlet.java"/>
+    <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StatementServlet" start="40" end="40" startBytecode="88" endBytecode="88" sourcefile="StatementServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StatementServlet.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_CONSTANT_DB_PASSWORD" priority="2" rank="7" abbrev="Dm" category="SECURITY" first="1">
+    <Class classname="uk.ac.napier.soc.ssd.sql.servlets.StoredProcedureServlet">
+      <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StoredProcedureServlet" sourcefile="StoredProcedureServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StoredProcedureServlet.java"/>
+    </Class>
+    <Method classname="uk.ac.napier.soc.ssd.sql.servlets.StoredProcedureServlet" name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" isStatic="false">
+      <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StoredProcedureServlet" start="28" end="49" startBytecode="0" endBytecode="95" sourcefile="StoredProcedureServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StoredProcedureServlet.java"/>
+    </Method>
+    <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StoredProcedureServlet" start="34" end="34" startBytecode="39" endBytecode="39" sourcefile="StoredProcedureServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StoredProcedureServlet.java"/>
+    <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StoredProcedureServlet" start="34" end="34" startBytecode="39" endBytecode="39" sourcefile="StoredProcedureServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StoredProcedureServlet.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_PARAM_DEREF_NONVIRTUAL" priority="1" rank="6" abbrev="NP" category="CORRECTNESS" first="1">
+    <Class classname="uk.ac.napier.soc.ssd.sql.servlets.StoredProcedureServlet">
+      <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StoredProcedureServlet" sourcefile="StoredProcedureServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StoredProcedureServlet.java"/>
+    </Class>
+    <Method classname="uk.ac.napier.soc.ssd.sql.servlets.StoredProcedureServlet" name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" isStatic="false">
+      <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StoredProcedureServlet" start="28" end="49" startBytecode="0" endBytecode="679" sourcefile="StoredProcedureServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StoredProcedureServlet.java"/>
+    </Method>
+    <Method classname="uk.ac.napier.soc.ssd.sql.servlets.CustomerTable" name="extractCustomers" signature="(Ljava/sql/ResultSet;)Ljava/util/List;" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.CustomerTable" start="24" end="36" startBytecode="0" endBytecode="212" sourcefile="CustomerTable.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/CustomerTable.java"/>
+    </Method>
+    <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StoredProcedureServlet" start="37" end="37" startBytecode="48" endBytecode="48" sourcefile="StoredProcedureServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StoredProcedureServlet.java"/>
+    <LocalVariable name="rs" register="5" pc="46" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Int value="1" role="INT_NULL_ARG"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ACTUAL_PARAMETER_GUARANTEED_NULL" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ALL_DANGEROUS_TARGETS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ARG_DEFINITELY_NULL" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.MONOMORPHIC_CALL_SITE" value="true"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="uk.ac.napier.soc.ssd.sql.servlets.StoredProcedureServlet">
+      <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StoredProcedureServlet" sourcefile="StoredProcedureServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StoredProcedureServlet.java"/>
+    </Class>
+    <Method classname="uk.ac.napier.soc.ssd.sql.servlets.StoredProcedureServlet" name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" isStatic="false">
+      <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StoredProcedureServlet" start="28" end="49" startBytecode="0" endBytecode="679" sourcefile="StoredProcedureServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StoredProcedureServlet.java"/>
+    </Method>
+    <LocalVariable name="rs" register="5" pc="171" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StoredProcedureServlet" start="42" end="42" startBytecode="173" endBytecode="173" sourcefile="StoredProcedureServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StoredProcedureServlet.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="uk.ac.napier.soc.ssd.sql.servlets.StoredProcedureServlet" start="42" end="42" startBytecode="173" endBytecode="173" sourcefile="StoredProcedureServlet.java" sourcepath="uk/ac/napier/soc/ssd/sql/servlets/StoredProcedureServlet.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 15 Aug 2018 03:16:25 -0700" total_classes="9" referenced_classes="59" total_bugs="8" total_size="215" num_packages="2" java_version="1.8.0_171" vm_version="25.171-b11" cpu_seconds="11.70" clock_seconds="12.77" peak_mbytes="864.61" alloc_mbytes="1048.00" gc_seconds="0.27" priority_2="5" priority_1="3">
+    <PackageStats package="uk.ac.napier.soc.ssd.sql.domain" total_bugs="0" total_types="1" total_size="41">
+      <ClassStats class="uk.ac.napier.soc.ssd.sql.domain.Customer" sourceFile="Customer.java" interface="false" size="41" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="uk.ac.napier.soc.ssd.sql.servlets" total_bugs="8" total_types="8" total_size="174" priority_2="5" priority_1="3">
+      <ClassStats class="uk.ac.napier.soc.ssd.sql.servlets.CustomerTable" sourceFile="CustomerTable.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="uk.ac.napier.soc.ssd.sql.servlets.HQLServlet" sourceFile="HQLServlet.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="uk.ac.napier.soc.ssd.sql.servlets.HibernateUtil" sourceFile="HibernateUtil.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="uk.ac.napier.soc.ssd.sql.servlets.InitDbServlet" sourceFile="InitDbServlet.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="uk.ac.napier.soc.ssd.sql.servlets.PreparedStatementServlet" sourceFile="PreparedStatementServlet.java" interface="false" size="24" bugs="1" priority_2="1"/>
+      <ClassStats class="uk.ac.napier.soc.ssd.sql.servlets.StatementEscapingServlet" sourceFile="StatementEscapingServlet.java" interface="false" size="27" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="uk.ac.napier.soc.ssd.sql.servlets.StatementServlet" sourceFile="StatementServlet.java" interface="false" size="24" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="uk.ac.napier.soc.ssd.sql.servlets.StoredProcedureServlet" sourceFile="StoredProcedureServlet.java" interface="false" size="22" bugs="3" priority_2="2" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="1457" invocations="2" avgMicrosecondsPerInvocation="728778" maxMicrosecondsPerInvocation="877554" standardDeviationMircosecondsPerInvocation="148776"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="872" invocations="603" avgMicrosecondsPerInvocation="1447" maxMicrosecondsPerInvocation="73556" standardDeviationMircosecondsPerInvocation="4735"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="334" invocations="605" avgMicrosecondsPerInvocation="553" maxMicrosecondsPerInvocation="162087" standardDeviationMircosecondsPerInvocation="6652"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="262" invocations="59" avgMicrosecondsPerInvocation="4443" maxMicrosecondsPerInvocation="43895" standardDeviationMircosecondsPerInvocation="8329"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="217" invocations="59" avgMicrosecondsPerInvocation="3685" maxMicrosecondsPerInvocation="46734" standardDeviationMircosecondsPerInvocation="7279"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="214" invocations="150" avgMicrosecondsPerInvocation="1431" maxMicrosecondsPerInvocation="32411" standardDeviationMircosecondsPerInvocation="3755"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="208" invocations="40" avgMicrosecondsPerInvocation="5216" maxMicrosecondsPerInvocation="54495" standardDeviationMircosecondsPerInvocation="11080"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="198" invocations="40" avgMicrosecondsPerInvocation="4960" maxMicrosecondsPerInvocation="57824" standardDeviationMircosecondsPerInvocation="10259"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="179" invocations="35" avgMicrosecondsPerInvocation="5129" maxMicrosecondsPerInvocation="48169" standardDeviationMircosecondsPerInvocation="10479"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="152" invocations="35" avgMicrosecondsPerInvocation="4367" maxMicrosecondsPerInvocation="25556" standardDeviationMircosecondsPerInvocation="7090"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="145" invocations="35" avgMicrosecondsPerInvocation="4149" maxMicrosecondsPerInvocation="133534" standardDeviationMircosecondsPerInvocation="22202"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="140" invocations="95" avgMicrosecondsPerInvocation="1476" maxMicrosecondsPerInvocation="66769" standardDeviationMircosecondsPerInvocation="7285"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="131" invocations="568" avgMicrosecondsPerInvocation="231" maxMicrosecondsPerInvocation="18138" standardDeviationMircosecondsPerInvocation="1189"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="125" invocations="59" avgMicrosecondsPerInvocation="2126" maxMicrosecondsPerInvocation="31706" standardDeviationMircosecondsPerInvocation="5281"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="119" invocations="35" avgMicrosecondsPerInvocation="3401" maxMicrosecondsPerInvocation="44235" standardDeviationMircosecondsPerInvocation="8532"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="116" invocations="59" avgMicrosecondsPerInvocation="1981" maxMicrosecondsPerInvocation="26961" standardDeviationMircosecondsPerInvocation="4766"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="116" invocations="35" avgMicrosecondsPerInvocation="3324" maxMicrosecondsPerInvocation="48355" standardDeviationMircosecondsPerInvocation="8721"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="111" invocations="59" avgMicrosecondsPerInvocation="1889" maxMicrosecondsPerInvocation="16202" standardDeviationMircosecondsPerInvocation="3765"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1534328255130" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

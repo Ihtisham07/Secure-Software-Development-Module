@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FileIO" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JWT" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Logging" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Password-Hashing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Race-Condition" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SQL-Injection" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Session-Fixation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TestCrypto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TestPKI" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/VulWebApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/XSS/XSS-Attack" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/XSS/XSS-CSP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/XSS/XSS-Filter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/XSS/XSS-OutputEscaping" vcs="Git" />
+  </component>
+</project>

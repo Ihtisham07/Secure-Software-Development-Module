@@ -1,0 +1,13 @@
+1530523183519	Rename package 'de.dominikschadow.webappsecurity'
+1530523253260	Delete element
+1530523386782	Delete element
+1530523485549	Delete element
+1530523496650	Delete element
+1530523502730	Delete element
+1530524080727	Rename compilation unit 'Customer.java'
+1530524146710	Rename compilation unit 'CustomerDAO.java'
+1530524222129	Infer generic type arguments
+1530524366797	Rename compilation unit 'CustomerController.java'
+1530525538447	Rename resource 'createCustomer.xhtml'
+1530525549597	Rename resource 'searchCustomer.xhtml'
+1530525558536	Rename resource 'showCustomers.xhtml'

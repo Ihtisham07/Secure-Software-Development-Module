@@ -1,0 +1,5 @@
+127.0.0.1 - - [07/Sep/2018:03:28:40 -0700] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [07/Sep/2018:03:28:45 -0700] "GET /sql-injection/ HTTP/1.1" 200 2291
+127.0.0.1 - - [07/Sep/2018:03:28:50 -0700] "GET /sql-injection/styles.css HTTP/1.1" 405 1116
+127.0.0.1 - - [07/Sep/2018:03:28:55 -0700] "POST /sql-injection/StatementServlet HTTP/1.1" 200 275
+127.0.0.1 - - [07/Sep/2018:03:28:55 -0700] "GET /sql-injection/styles.css HTTP/1.1" 405 1116
